@@ -6,7 +6,7 @@ This project is done with Python3.8 and with the help of Django rest_framework.
 Follow below steps:
 1. Make sure Python3.8 is installed in your system
 
-2. Clone the project and Open project in any ide
+2. Clone the project from master branch and Open project in any ide
 
 3. Go to root folder in terminal and Install all requirements
     (pip install -r requirements.txt)
