@@ -1,0 +1,25 @@
+NeoSAVE-API
+
+
+This project is done with Python3.8 and with the help of Django rest_framework.
+
+Follow below steps:
+1. Make sure Python3.8 is installed in your system
+
+2. Open project in any ide
+
+3. Go to root folder in terminal and Install all requirements
+    (pip install -r requirements.txt)
+
+4. Run server
+    (python manage.py runserver)
+
+5. Create new users by POST method using Postman. It calls Users.views.post_user
+    (localhost:port/user/create/)
+
+6. Get user by id by GET method. It calls Users.views.get_user
+    (localhost:port/user/<id>/)
+
+7. Get all users by GET method. It calls Users.views.get_all_users.
+    User can be deleted by DELETE method and updated by PUT method.
+    (localhost:port/users/)
